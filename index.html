@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="./ASSETS/logo.png">
+    <link rel="stylesheet" type="text/css" href="./CSS/styles.css">
+    <title>CodeBreakers</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">CodeBreakers</div>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div>
+                <ul>
+                    <li><a href="./PHP/index.php">Login</a></li>
+                </ul>
+            </div>
+            <div class="menu-toggle" id="menuToggle">&#9776;</div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Bem-vindo à Freelance Pro</h1>
+                <p>Especialistas em soluções personalizadas para seu negócio.</p>
+                <button onclick="scrollToSection('contact')">Entre em Contato</button>
+            </div>
+            <div class="hero-image">
+                <img src="images/hero-image.jpg" alt="Imagem Heroica">
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Nossos Serviços</h2>
+            <div class="service-card">
+                <img src="images/service1.jpg" alt="Serviço 1">
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação de sites e sistemas personalizados para atender suas necessidades.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/service2.jpg" alt="Serviço 2">
+                <h3>Consultoria</h3>
+                <p>Consultoria especializada para otimizar processos e estratégias de negócios.</p>
+            </div>
+            <div class="service-card">
+                <img src="images/service3.jpg" alt="Serviço 3">
+                <h3>Design Gráfico</h3>
+                <p>Criação de identidade visual e materiais gráficos impactantes.</p>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>Sobre Nós</h2>
+            <div class="about-text">
+                <p>Na Freelance Pro, somos uma equipe dedicada a oferecer soluções criativas e personalizadas para pequenos e médios negócios. Embora tenhamos iniciado recentemente, nossa paixão por excelência e inovação nos permite entregar resultados excepcionais para nossos clientes.</p>
+                <img src="images/team.jpg" alt="Equipe">
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Entre em Contato</h2>
+            <form action="#" method="POST">
+                <p>
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </p>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Freelance Pro. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
