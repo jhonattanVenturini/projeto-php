@@ -21,9 +21,11 @@ header .logo {
   font-weight: bold;
   width: 8%;
 }
-head img{
-    width: 8%;
+
+head img {
+  width: 50%;
 }
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -44,11 +46,11 @@ header ul li {
 header ul li a {
   text-decoration: none;
   color: #fff;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 header ul li a:hover {
-  color: #03e9f4;
+  color: #2311c4;
 }
 
 .menu-toggle {
@@ -56,6 +58,7 @@ header ul li a:hover {
   font-size: 1.5em;
   cursor: pointer;
 }
+
 .login-icon {
   margin-left: 20px;
 }
@@ -87,7 +90,7 @@ header ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px 20px;
+  padding: 1rem;
   background: #1e1e1e;
   color: #fff;
   text-align: center;
@@ -98,6 +101,10 @@ header ul li a:hover {
   margin: 0;
 }
 
+.hero-text h1 span {
+  color: #2311c4;
+}
+
 .hero-text p {
   font-size: 1.2em;
   margin: 20px 0;
@@ -106,7 +113,7 @@ header ul li a:hover {
 .hero-text button {
   padding: 10px 20px;
   border: none;
-  background: #03e9f4;
+  background: #2311c4;
   color: #fff;
   font-weight: bold;
   cursor: pointer;
@@ -114,13 +121,22 @@ header ul li a:hover {
 }
 
 .hero-text button:hover {
-  background: #029dbb;
+  background: #121061;
+}
+
+.hero-image {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 15px 15px 15px 15px;
 }
 
 .hero-image img {
   width: 100%;
-  max-width: 600px;
+  height: 350px;
   border-radius: 10px;
+  margin-top: 15px;
+  padding: 0;
+  object-fit: cover;
 }
 
 .services {
@@ -253,6 +269,10 @@ footer {
 
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
+  .body {
+    display: block;
+  }
+
   .hero {
     padding: 30px 10px;
   }
@@ -266,11 +286,19 @@ footer {
   }
 
   .services {
-    padding: 30px 10px;
+    padding: 5px 5px;
   }
 
   .service-card {
     width: calc(50% - 40px);
+  }
+
+  .service-card h3 {
+    color: #121061;
+  }
+
+  .about-text p {
+    text-align: justify;
   }
 
   .about-text img {
