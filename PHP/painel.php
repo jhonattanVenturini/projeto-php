@@ -14,20 +14,20 @@ include("protect.php");
 </head>
 <body>
     <aside class="sidebar">
-        <div class="logo">Freelance Pro</div>
+        <div class="logo">CodeBreakers</div>
         <nav>
             <ul>
                 <li><a href="#">Painel</a></li>
                 <li><a href="#profile">Perfil</a></li>
                 <li><a href="#settings">Configurações</a></li>
-                <li><a href="../PHP/logout.php">Sair</a></li>
             </ul>
         </nav>
+        <a id="sair"href="../PHP/logout.php">Sair</a>
     </aside>
 
     <main class="dashboard">
         <header>
-            <h1>Painel de Controle</h1>
+            <h1>Painel de Controle </h1>
         </header>
 
         <section class="dashboard-summary">
@@ -62,9 +62,9 @@ include("protect.php");
 
         <section class="user-profile">
             <div class="profile-card">
-                <img src="images/profile.jpg" alt="Foto do Usuário" class="profile-img">
-                <h3>Nome do Usuário</h3>
-                <p class="job-title">Cargo</p>
+                <img src="../ASSETS/painel-pla.jpeg" alt="Foto do Usuário" class="profile-img">
+                <h3> Jhonattan Venturini</h3>
+                <p class="job-title"> Desenvolvedor Full Stack </p>
                 <p class="description">Breve descrição sobre o usuário. Inclua informações relevantes sobre sua experiência e responsabilidades.</p>
                 <h4>Habilidades:</h4>
                 <ul class="skills">

@@ -52,38 +52,17 @@ header ul li a {
 header ul li a:hover {
   color: #2311c4;
 }
-
-.menu-toggle {
-  display: none;
-  font-size: 1.5em;
-  cursor: pointer;
+header button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
 }
-
-.login-icon {
-  margin-left: 20px;
-}
-
-.login-icon a {
-  color: #fff;
-  font-size: 24px;
-  transition: color 0.3s ease;
-}
-
-.login-icon a:hover {
-  color: #121061;
-}
-
-.burger {
-  display: none;
-  cursor: pointer;
-}
-
-.burger div {
-  width: 25px;
-  height: 3px;
-  background: #fff;
-  margin: 5px;
-  transition: all 0.3s ease;
+header button a{
+  text-decoration: none;
 }
 
 .hero {

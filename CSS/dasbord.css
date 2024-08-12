@@ -21,8 +21,9 @@ body, html {
 .sidebar .logo {
     font-size: 1.8em;
     font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: left;
+    margin-bottom: 50px;
+
 }
 
 .sidebar nav ul {
@@ -44,13 +45,19 @@ body, html {
 
 .sidebar nav ul li a:hover {
     color: #03e9f4;
+    background-color: #121212;
 }
-
+.sidebar a#sair{
+    text-decoration: none;
+    color: red;
+    background-color: #03e9f4;
+}
 .dashboard {
     margin-left: 300px;
     padding: 20px;
     width: calc(100% - 300px);
 }
+
 
 .dashboard header {
     margin-bottom: 20px;
