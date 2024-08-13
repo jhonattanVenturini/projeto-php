@@ -37,87 +37,12 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../ASSETS/logo.png">
+    <link rel="stylesheet" href="../CSS/login.css">
     <title>Login</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
-
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #141414;
-            font-family: 'Raleway', sans-serif;
-        }
-
-        .login-container {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
-            text-align: center;
-            width: 100%;
-            max-width: 400px;
-        }
-
-        .login-container h1 {
-            margin-bottom: 30px;
-            color: #fff;
-            color: #029dbb;
-        }
-
-        .login-container form p {
-            position: relative;
-            margin-bottom: 30px;
-        }
-
-        .login-container form label {
-            display: block;
-            color: #fff;
-            font-size: 14px;
-            margin-bottom: 5px;
-            text-align: left;
-        }
-
-        .login-container form input {
-            width: 100%;
-            padding: 10px;
-            background: none;
-            border: none;
-            border-bottom: 1px solid #fff;
-            outline: none;
-            color: #fff;
-            font-size: 16px;
-        }
-
-        .login-container form input:focus {
-            border-bottom: 1px solid #03e9f4;
-        }
-
-        .login-container form button {
-            background: #03e9f4;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            color: #141414;
-            font-size: 16px;
-            cursor: pointer;
-            transition: background 0.3s;
-        }
-
-        .login-container form button:hover {
-            background: #029dbb;
-        }
-    </style>
 </head>
 
 <body>

@@ -50,7 +50,6 @@ body, html {
 .sidebar a#sair{
     text-decoration: none;
     color: red;
-    background-color: #03e9f4;
 }
 .dashboard {
     margin-left: 300px;

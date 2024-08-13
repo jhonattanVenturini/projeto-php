@@ -53,16 +53,21 @@ header ul li a:hover {
   color: #2311c4;
 }
 header button {
-    background-color: #28a745;
     color: white;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     text-decoration: none;
+    background-color: #2311c4;
 }
 header button a{
   text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+header button:hover{
+  background-color: #2311c4a5;
 }
 
 .hero {
@@ -74,7 +79,6 @@ header button a{
   color: #fff;
   text-align: center;
 }
-
 .hero-text h1 {
   font-size: 2.5em;
   margin: 0;
@@ -104,13 +108,12 @@ header button a{
 }
 
 .hero-image {
-  background-color: #fff;
   border-radius: 10px;
   margin: 15px 15px 15px 15px;
 }
 
 .hero-image img {
-  width: 100%;
+  width: 1000px;
   height: 350px;
   border-radius: 10px;
   margin-top: 15px;
