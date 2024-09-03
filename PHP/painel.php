@@ -68,10 +68,12 @@ include("protect.php");
                 <p class="description">Breve descrição sobre o usuário. Inclua informações relevantes sobre sua experiência e responsabilidades.</p>
                 <h4>Habilidades:</h4>
                 <ul class="skills">
-                    <li>Habilidade 1</li>
-                    <li>Habilidade 2</li>
-                    <li>Habilidade 3</li>
-                    <li>Habilidade 4</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>Php</li>
+                    <li>MySql</li>
+                    <li>SQL</li>
                 </ul>
             </div>
         </section>

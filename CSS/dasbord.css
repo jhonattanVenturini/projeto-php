@@ -149,7 +149,9 @@ body, html {
     margin: 5px 0;
     border-radius: 5px;
 }
-
+.skills li a:hover{
+    background-color: #666;
+}
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .dashboard-summary {
