@@ -3,6 +3,7 @@ include("protect.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@ include("protect.php");
     <script src="../JS/script.js" defer></script>
     <title>CodeBreakers</title>
 </head>
+
 <body>
     <aside class="sidebar">
         <div class="logo">CodeBreakers</div>
@@ -22,12 +24,12 @@ include("protect.php");
                 <li><a href="#settings">Configurações</a></li>
             </ul>
         </nav>
-        <a id="sair"href="../PHP/logout.php">Sair</a>
+        <a id="sair" href="../PHP/logout.php">Sair</a>
     </aside>
 
     <main class="dashboard">
         <header>
-            <h1>Painel de Controle </h1>
+            <h1> Olá <span><?php echo $_SESSION['nome'] . "," ?></span> seja bem-vindo ao Painel de Controle! </h1>
         </header>
 
         <section class="dashboard-summary">
@@ -78,5 +80,8 @@ include("protect.php");
             </div>
         </section>
     </main>
+    <script src="../JS/script.js"></script>
+
 </body>
+
 </html>

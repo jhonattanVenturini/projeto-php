@@ -15,7 +15,16 @@ body, html {
     color: #fff;
     padding: 20px;
     height: 100vh;
+    position: fixed;height: 100%;
+    width: 0;
     position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #0a0a0a;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    z-index: 999;
 }
 
 .sidebar .logo {
@@ -46,6 +55,8 @@ body, html {
 .sidebar nav ul li a:hover {
     color: #03e9f4;
     background-color: #121212;
+    border-radius: 8px;
+    padding: 1.3rem;
 }
 .sidebar a#sair{
     text-decoration: none;
@@ -56,12 +67,13 @@ body, html {
     padding: 20px;
     width: calc(100% - 300px);
 }
-
-
 .dashboard header {
     margin-bottom: 20px;
+    color: #121212;
 }
-
+.dashboard  header h1 span{
+    color: red;
+}
 .dashboard-summary {
     display: flex;
     justify-content: space-around;
