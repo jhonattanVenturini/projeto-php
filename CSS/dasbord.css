@@ -10,13 +10,11 @@ body, html {
 }
 
 .sidebar {
-    width: 250px;
+    width: 250px; 
     background: #333;
     color: #fff;
     padding: 20px;
     height: 100vh;
-    position: fixed;height: 100%;
-    width: 0;
     position: fixed;
     top: 0;
     left: 0;
@@ -64,12 +62,13 @@ body, html {
 }
 .dashboard {
     margin-left: 300px;
-    padding: 20px;
+    padding: 25px;
     width: calc(100% - 300px);
 }
-.dashboard header {
-    margin-bottom: 20px;
+.dashboard header h1 {
     color: #121212;
+    margin: 20px;
+    padding: 10px;
 }
 .dashboard  header h1 span{
     color: red;
