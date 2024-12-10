@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
@@ -10,8 +10,7 @@ body, html {
 }
 
 .sidebar {
-    width: 250px; 
-    background: #333;
+    width: 250px;
     color: #fff;
     padding: 20px;
     height: 100vh;
@@ -30,7 +29,6 @@ body, html {
     font-weight: bold;
     text-align: left;
     margin-bottom: 50px;
-
 }
 
 .sidebar nav ul {
@@ -56,23 +54,28 @@ body, html {
     border-radius: 8px;
     padding: 1.3rem;
 }
-.sidebar a#sair{
+
+.sidebar a#sair {
     text-decoration: none;
     color: red;
 }
+
 .dashboard {
-    margin-left: 300px;
-    padding: 25px;
-    width: calc(100% - 300px);
+    margin-left: 250px;
+    /* Ajustado para a largura da sidebar */
+    padding: 55px;
+    width: calc(100% - 250px);
 }
-.dashboard header h1 {
+
+.dashboard header {
+    margin-bottom: 20px;
     color: #121212;
-    margin: 20px;
-    padding: 10px;
 }
-.dashboard  header h1 span{
+
+.dashboard header h1  {
     color: red;
 }
+
 .dashboard-summary {
     display: flex;
     justify-content: space-around;
@@ -160,9 +163,11 @@ body, html {
     margin: 5px 0;
     border-radius: 5px;
 }
-.skills li a:hover{
+
+.skills li a:hover {
     background-color: #666;
 }
+
 /* Media queries for responsiveness */
 @media (max-width: 768px) {
     .dashboard-summary {
@@ -175,7 +180,8 @@ body, html {
         align-items: center;
     }
 
-    .card, .chart-card {
+    .card,
+    .chart-card {
         width: 100%;
         margin: 10px 0;
     }

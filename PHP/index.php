@@ -37,6 +37,7 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,19 +48,20 @@ if (isset($_POST['email']) || isset($_POST['senha'])) {
 
 <body>
     <div class="login-container">
-        <img src="/ASSETS/logo.png">
+        <img src="/ASSETS/logo.png" alt="Logo">
         <h1>Acesse sua conta</h1>
-        <form action="" method="POST">
+        <form action="login.php" method="POST">
             <p>
                 <label>E-mail</label>
-                <input type="text" name="email">
+                <input type="text" name="email" required>
             </p>
             <p>
                 <label>Senha</label>
-                <input type="password" name="senha">
+                <input type="password" name="senha" required>
             </p>
             <p>
                 <button type="submit">Entrar</button>
+                <a href="../HTML/cadastro.html"><button type="button">Cadastrar-me</button></a>
             </p>
         </form>
     </div>
