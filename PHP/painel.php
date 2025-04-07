@@ -1,6 +1,8 @@
 <?php
-include("protect.php");
+session_start();
+$_SESSION['nome'] = "TESTE";
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -28,10 +30,7 @@ include("protect.php");
     </aside>
 
     <main class="dashboard">
-
         <h1> Olá <span><?php echo $_SESSION['nome'] . "," ?></span> seja bem-vindo ao Painel de Controle! </h1>
-
-
         <section class="dashboard-summary">
             <div class="card">
                 <h3>Usuários Ativos</h3>
