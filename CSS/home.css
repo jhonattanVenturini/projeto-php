@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px 20px;
+  position: relative;
+}
+
+header .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  width: 8%;
+}
+
+head img {
+  width: 50%;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  margin-left: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+header ul li a:hover {
+  color: #2311c4;
+}
+header button {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #2311c4;
+}
+header button a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+header button:hover{
+  background-color: #2311c4a5;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  background: #1e1e1e;
+  color: #fff;
+  text-align: center;
+}
+.hero-text h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+
+.hero-text h1 span {
+  color: #2311c4;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  border: none;
+  background: #2311c4;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.hero-text button:hover {
+  background: #121061;
+}
+
+.hero-image {
+  border-radius: 10px;
+  margin: 15px 15px 15px 15px;
+}
+
+.hero-image img {
+  width: 1000px;
+  height: 350px;
+  border-radius: 10px;
+  margin-top: 15px;
+  padding: 0;
+  object-fit: cover;
+}
+
+.services {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.service-card {
+  display: inline-block;
+  width: calc(33.333% - 40px);
+  margin: 20px;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.service-card h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.service-card p {
+  font-size: 1em;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about {
+  padding: 50px 20px;
+  background: #1e1e1e;
+  color: #fff;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text p {
+  font-size: 1.2em;
+}
+
+.about-text img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.contact {
+  padding: 50px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact form p {
+  margin-bottom: 15px;
+}
+
+.contact form label {
+  display: block;
+  font-weight: bold;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact form button {
+  padding: 10px 20px;
+  border: none;
+  background: #03e9f4;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact form button:hover {
+  background: #029dbb;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .body {
+    display: block;
+  }
+
+  .hero {
+    padding: 30px 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 2em;
+  }
+
+  .hero-text p {
+    font-size: 1em;
+  }
+
+  .services {
+    padding: 5px 5px;
+  }
+
+  .service-card {
+    width: calc(50% - 40px);
+  }
+
+  .service-card h3 {
+    color: #121061;
+  }
+
+  .about-text p {
+    text-align: justify;
+  }
+
+  .about-text img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  header ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #333;
+    padding: 20px;
+    margin: 0;
+  }
+
+  header ul.active {
+    display: flex;
+  }
+
+  header ul li {
+    margin: 10px 0;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8em;
+  }
+
+  .hero-text p {
+    font-size: 0.9em;
+  }
+
+  .service-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
